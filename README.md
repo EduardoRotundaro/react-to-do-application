@@ -47,7 +47,7 @@ $ cd react-to-do-application
 $ npm install
 ```
 
-***Starting the application***
+**Starting the application**
 
 ```sh
 $ npm start
