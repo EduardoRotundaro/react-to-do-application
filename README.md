@@ -17,3 +17,38 @@ An React application example.
 | react-redux | 7.0.3 |
 | redux | 4.0.1 |
 | fontawesome | 5.8.1 |
+
+---
+
+## Screenshots
+
+**Main page**
+![]()
+
+
+**About page**
+![]()
+
+
+---
+
+## Backend
+
+This application needs [this Rest API](https://github.com/EduardoRotundaro/crud-api-express-mongo).
+
+---
+
+## Running
+
+**After clone**
+
+```sh
+$ cd react-to-do-application
+$ npm install
+```
+
+***Starting the application***
+
+```sh
+$ npm start
+``` 
