@@ -1,7 +1,9 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import {
-    faReact
+    faReact,
+    faLinkedin,
+    faGithub,
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
@@ -25,5 +27,7 @@ library.add(
     faCheck,
     faUndo,
     faTrash,
-    faPlus
+    faPlus,
+    faLinkedin,
+    faGithub,
 )

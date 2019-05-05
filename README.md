@@ -34,7 +34,7 @@ An React application example.
 
 ## Backend
 
-This application needs [this Rest API](https://github.com/EduardoRotundaro/crud-api-express-mongo).
+This application uses [this Rest API](https://github.com/EduardoRotundaro/crud-api-express-mongo).
 
 ---
 

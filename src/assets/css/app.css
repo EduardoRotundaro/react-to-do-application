@@ -95,3 +95,112 @@ body{
         margin-bottom: -5px;
     }
 }
+  
+.box {
+    background: white;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+  
+.box:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid rgb(97, 218, 251);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+  
+.box h1 {
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(97, 218, 251);
+    width: 275px;
+}
+  
+.box p {
+    text-align: justify;
+}
+
+.about-logo{
+    width: 110px;
+    float: right;
+}
+ 
+.effect .buttons {
+    display: flex;
+    justify-content: center;
+}
+  
+.effect a {
+    text-decoration: none !important;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+    color: #212121;
+    border: 2px solid #212121;
+}
+  
+.effect a i {
+    position: relative;
+    z-index: 3;
+}
+  
+.effect a:last-child {
+    margin-right: 0px;
+}
+  
+.effect a:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+  
+.effect a i {
+    display: inline-block;
+    vertical-align: middle;
+}
+  
+.effect.varrius a {
+    transition: all 0.2s linear 0s;
+}
+  
+.effect.varrius a:after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 90%;
+    top: -110%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    background-color: #212121;
+    border-radius: 50%;
+}
+  
+.effect.varrius a:hover {
+    color: rgb(97, 218, 251);
+}
+  
+.effect.varrius a:hover:after {
+    top: 5%;
+    transition: all 0.2s linear 0s;
+}
+
+@keyframes example {
+    0%   {border-left: 2px solid #FBFCFC;}
+    25%  {border-left: 3px solid rgb(177, 255, 255);}
+    50%  {border-left: 4px solid rgb(147, 255, 255);}
+    100% {border-left: 5px solid rgb(97, 218, 251);}
+}
