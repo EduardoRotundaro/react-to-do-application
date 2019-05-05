@@ -27,7 +27,7 @@ An React application example.
 
 
 **About page**
-![]()
+![](https://github.com/EduardoRotundaro/react-to-do-application/blob/master/docs/screenshots/about.png?raw=true)
 
 
 ---
