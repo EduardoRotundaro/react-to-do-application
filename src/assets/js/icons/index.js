@@ -9,11 +9,21 @@ import {
 } from '@fortawesome/free-regular-svg-icons'
 
 import {
-    faSignOutAlt,
+    faTasks,
+    faInfoCircle,
+    faCheck,
+    faUndo,
+    faTrash,
+    faPlus
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
     faArrowAltCircleLeft,
-    faSignOutAlt,
+    faTasks,
     faReact,
+    faInfoCircle,
+    faCheck,
+    faUndo,
+    faTrash,
+    faPlus
 )
