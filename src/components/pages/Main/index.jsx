@@ -1,5 +1,21 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+
+import Row from '../../layout/Row'
+import Column from '../../layout/Column'
+
+import List from './List'
+import Form from './Form'
 
 export default props => (
-    <h3>Main</h3>
+    <Fragment>
+        <br/>
+        <Row hAlign="center">
+            <Form/>
+        </Row>
+        <Row hAlign="center">
+            <Column>
+                <List/>
+            </Column>
+        </Row>
+    </Fragment>
 )

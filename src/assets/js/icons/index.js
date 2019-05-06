@@ -16,7 +16,8 @@ import {
     faCheck,
     faUndo,
     faTrash,
-    faPlus
+    faPlus,
+    faCheckCircle,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -30,4 +31,5 @@ library.add(
     faPlus,
     faLinkedin,
     faGithub,
+    faCheckCircle,
 )

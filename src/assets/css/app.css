@@ -198,6 +198,272 @@ body{
     transition: all 0.2s linear 0s;
 }
 
+.responsive-table{
+    padding-inline-start: 0px;
+}
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    color: #2C3E50;
+}
+ 
+.responsive-table .table-header {
+    background-color: #34495E;
+    color: #FBFCFC;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+}
+
+.responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.2);
+}
+
+.responsive-table .clmn-1 {
+    flex-basis: 85%;
+}
+
+.responsive-table .clmn-2 {
+    flex-basis: 15%;
+}
+
+@media all and (max-width: 767px) {
+    .responsive-table .table-header {
+        display: none;
+    }
+
+    .responsive-table li {
+        display: block;
+    }
+
+    .responsive-table .clmn {
+        flex-basis: 100%;
+    }
+
+    .responsive-table .clmn {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .responsive-table .clmn:before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+    }
+}
+
+.circle-btn {
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 15px;
+    border-radius: 50%;
+    font-family: "Lato",sans-serif;
+    text-align: center;
+    margin: 4px;
+}
+  
+.circle-btn svg{
+    margin-top: 2px;
+}
+  
+.circle-btn:hover {
+    border: none;
+    color: white;
+    font-size: 20px;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.circle-btn-success {
+    border: 2px solid #2ECC71;
+    color: #2ECC71;
+}
+
+.circle-btn-success:hover {
+    background-color: #2ECC71;
+    transition: all 0.3s ease-in-out;
+}
+
+.circle-btn-warning {
+    border: 2px solid #F5B041;
+    color: #F5B041;
+}
+
+.circle-btn-warning:hover {
+    background-color: #F5B041;
+    transition: all 0.3s ease-in-out;
+}
+
+.circle-btn-danger {
+    border: 2px solid #EC7063;
+    color: #EC7063;
+}
+
+.circle-btn-danger:hover {
+    background-color: #EC7063;
+    transition: all 0.3s ease-in-out;
+}
+
+.circle-btn-primary {
+    border: 2px solid #3498DB;
+    color: #3498DB;
+}
+
+.circle-btn-primary:hover {
+    background-color: #3498DB;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-line {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -20px;
+}
+  
+.input-line label {
+    position: absolute;
+    top: 36.6666666667px;
+    color: #808B96;
+    font-size: 25px;
+    cursor: text;
+    transition: .25s ease;
+}
+  
+.input-line input {
+    display: block;
+    width: 100%;
+    padding-top: 36.6666666667px;
+    border: none;
+    border-radius: 0;
+    color: #2C3E50;
+    font-size: 25px;
+    transition: .3s ease;
+    background: #FBFCFC;
+}
+  
+.input-line input:valid ~ label {
+    top: 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+  
+.input-line input:focus {
+    outline: none;
+}
+  
+.input-line input:focus ~ label {
+    top: 0;
+    font-size: 20px;
+    color: #3498DB;
+}
+  
+.input-line input:focus ~ .bar:before {
+    transform: translateX(0);
+}
+  
+.input-line input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #333 inset;
+    -webkit-box-shadow: 0 0 0px 1000px #333 inset;
+    -webkit-text-fill-color: #FBFCFC !important;
+}
+  
+.input-line .bar {
+    background: #D5D8DC;
+    content: '';
+    width: 100%;
+    height: 3px;
+    transition: .3s ease;
+    position: relative;
+}
+  
+.input-line .bar:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    background: #3498DB;
+    transform: translateX(-100%);
+} 
+
+.draw-border {
+    box-shadow: inset 0 0 0 4px #D5D8DC;
+    color: #808B96;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+  
+.draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+  
+.draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+  
+.draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+  
+.draw-border:hover {
+    color: #3498DB;
+}
+  
+.draw-border:hover::before, .draw-border:hover::after {
+    border-color: #3498DB;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+  
+.draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+}
+  
+.draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+}
+  
+.btn-border {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    letter-spacing: 0.05rem;
+    width: 100%;
+    margin-top: 28px;
+    outline: none;
+} 
+
 @keyframes example {
     0%   {border-left: 2px solid #FBFCFC;}
     25%  {border-left: 3px solid rgb(177, 255, 255);}
