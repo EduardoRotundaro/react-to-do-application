@@ -23,7 +23,7 @@ An React application example.
 ## Screenshots
 
 **Main page**
-![]()
+![](https://github.com/EduardoRotundaro/react-to-do-application/blob/master/docs/screenshots/main.png?raw=true)
 
 
 **About page**
