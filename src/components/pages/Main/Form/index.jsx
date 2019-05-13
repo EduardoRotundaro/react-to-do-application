@@ -8,7 +8,7 @@ import Button from '../../../templates/elements/DrawBorderButton'
 export default props =>{ 
 
     const keyHandler = (event)=>{
-        if(event.key === 'Enter' ) props.handleAdd()
+        if(event.key === 'Enter' ) props.handleAdd( props.description )
     }
 
     return (
@@ -17,7 +17,7 @@ export default props =>{
                 <Input label="Adicione uma tarefa" value={ props.description } onchange={ props.handleChange } onkeyup={ keyHandler } />
             </Column>
             <Column sizes="12-2-2-2-2">
-                <Button icon="fas plus" onclick={ props.handleAdd } >Adicionar</Button>
+                <Button icon="fas plus" onclick={ () => props.handleAdd( props.description ) } >Adicionar</Button>
             </Column>
         </Fragment>
     )

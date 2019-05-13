@@ -10,13 +10,17 @@ An React application example.
 
 | Lib | Version |
 | ------ | ------ |
-| react | 16.8.6 |
-| react-dom | 16.8.6 |
-| react-scripts | 3.0.0 |
-| react-router-dom | 5.0.0 |
-| react-redux | 7.0.3 |
-| redux | 4.0.1 |
-| fontawesome | 5.8.1 |
+| react | 16.8 |
+| react-dom | 16.8 |
+| react-scripts | 3.0 |
+| react-router-dom | 5.0 |
+| react-redux | 7.0 |
+| redux | 4.0 |
+| redux-promise | 0.6 |
+| redux-multi | 0.1 |
+| redux-thunk | 2.3 |
+| axios | 0.18 |
+| fontawesome | 5.8 |
 
 ---
 
