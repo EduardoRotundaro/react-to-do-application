@@ -9,7 +9,7 @@ export const NAV_ITENS = [
         to: '/about',
         icon: 'fas info-circle'
     }
-]
+];
 
 export const ABOUT = {
     title: 'To-do Application',
@@ -25,4 +25,4 @@ export const ABOUT = {
             link: 'http://www.linkedin.com/in/eduardo-rotundaro'
         }
     ]
-}
+};

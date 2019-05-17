@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default props => (
     <div className={ `container${ props.full? '-fluid' : '' }${ props.className? ` ${props.className}`: '' }` } >

@@ -1,6 +1,6 @@
 ![](https://github.com/EduardoRotundaro/react-to-do-application/blob/master/docs/screenshots/logo.png?raw=true)
 
-# To-do application
+# ✅ To-do application
 
 An React application example.
 
@@ -38,7 +38,7 @@ An React application example.
 
 ## Backend
 
-This application uses [this Rest API](https://github.com/EduardoRotundaro/crud-api-express-mongo).
+This application uses [this API](https://github.com/EduardoRotundaro/crud-api-express-mongo).
 
 ---
 

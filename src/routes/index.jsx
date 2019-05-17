@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
-import { Route, Redirect, Switch } from 'react-router-dom'
+import React, { Fragment } from 'react';
+import { Route, Redirect, Switch } from 'react-router-dom';
 
-import Main from '../components/pages/Main'
-import About from '../components/pages/About'
+import Main from '../components/pages/Main';
+import About from '../components/pages/About';
 
 export default props => (
     <Fragment>

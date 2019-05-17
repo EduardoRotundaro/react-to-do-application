@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import Row from '../../layout/Row'
-import Column from '../../layout/Column'
+import Row from '../../layout/Row';
+import Column from '../../layout/Column';
 
-import Box from './Box'
-import SocialIcons from './SocialIcons'
+import Box from './Box';
+import SocialIcons from './SocialIcons';
 
 export default props => (
     <Fragment>

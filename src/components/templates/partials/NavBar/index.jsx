@@ -1,13 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Icon from '../../icons/FontAwesome'
-import logo from '../../../../assets/images/logo.png'
+import Icon from '../../icons/FontAwesome';
+import logo from '../../../../assets/images/logo.png';
 
 export default props => {
 
     function renderItens(){
-        let itens = props.itens || []
+        let itens = props.itens || [];
 
         return itens.map(
             (item, index) => 

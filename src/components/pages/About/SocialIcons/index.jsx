@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import Icon from '../../../templates/icons/FontAwesome'
+import Icon from '../../../templates/icons/FontAwesome';
 
-import { ABOUT } from '../../../../constants/content'
+import { ABOUT } from '../../../../constants/content';
 
 export default props => {
 
