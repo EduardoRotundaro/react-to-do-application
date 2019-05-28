@@ -24,7 +24,7 @@ An React application example.
 
 ---
 
-## 🎴 Screenshots
+## Screenshots
 
 **Main page**
 ![](https://github.com/EduardoRotundaro/react-to-do-application/blob/master/docs/screenshots/main.png?raw=true)
@@ -42,7 +42,7 @@ This application uses [this API](https://github.com/EduardoRotundaro/crud-api-ex
 
 ---
 
-## ⚡ Running
+## Running
 
 **After clone**
 
