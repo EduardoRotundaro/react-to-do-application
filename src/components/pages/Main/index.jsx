@@ -24,7 +24,7 @@ class Main extends Component {
                 <Row hAlign="center">
                     <Column>
                         <List list={ this.props.list } 
-                            handleDelete={ this.props.deleteToDo } handleSetAsDone={ this.props.setAsDone } handleSetAsPending={ this.props.setAsPending } 
+                            handleDelete={ this.props.deleteToDo } handleSetAsDone={ this.props.setToDoAsDone } handleSetAsPending={ this.props.setToDoAsPending } 
                         />
                     </Column>
                 </Row>
